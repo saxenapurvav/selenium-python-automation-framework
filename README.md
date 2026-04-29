@@ -1,23 +1,33 @@
-# selenium-python-automation-framework
 # Selenium Python Automation Framework
 
 ## Overview
-This project is a test automation framework built using Selenium WebDriver with Python following Page Object Model (POM).
+This project is a test automation framework built using Selenium WebDriver with Python, following the Page Object Model (POM) design pattern. It demonstrates automation of login and logout functionality with assertion-based validation and cross-browser execution.
 
 ## Features
 - Page Object Model (POM) design
-- Automated test cases for login functionality
-- PyTest framework for execution
+- Automated login and logout test scenarios
+- Assertion-based validation (Pass/Fail)
+- Cross-browser testing (Chrome, Firefox)
 - Reusable components and utilities
 
 ## Tech Stack
 - Python
 - Selenium WebDriver
-- PyTest
+- Pytest
+- WebDriver Manager
 
 ## Test Scenarios Covered
-- Login functionality
+- Valid Login Test
+- Logout Functionality Test
 - Basic user flow validation
+- Invalid Login Test
+
+## Project Structure
+project/
+│
+├── tests/
+├── pages/
+├── utils/
 
 ## How to Run
 1. Install dependencies:
